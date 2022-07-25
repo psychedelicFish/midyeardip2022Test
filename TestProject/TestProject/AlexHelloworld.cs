@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestProject
 {
-    internal class Program
+    static class AlexHelloworld
     {
-        static void Main(string[] args)
+        public static void AlexHelloWorld()
         {
-            AlexHelloworld.AlexHelloWorld();
-            Console.ReadLine();
+            Console.WriteLine("Heya fam!");
         }
     }
 }
