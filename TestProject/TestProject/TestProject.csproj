@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlexHelloworld.cs" />
+    <Compile Include="MoreClass.cs" />
     <Compile Include="MyBestClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
