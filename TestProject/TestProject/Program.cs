@@ -8,10 +8,12 @@ namespace TestProject
 {
     internal class Program
     {
+
+
+
         static void Main(string[] args)
         {
-            AlexHelloworld.AlexHelloWorld();
-            Console.ReadLine();
+            
         }
     }
 }
