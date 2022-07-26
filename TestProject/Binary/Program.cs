@@ -62,9 +62,26 @@ namespace Binary
             PrintInventory(inventory);
             Console.ReadKey();
 
+            int r = 5;
+            for (int i = 10; i < 50; i++)
+            {
+                ;
+                Console.WriteLine(UsrRan(ref r));
+            }
+            Console.ReadKey();
+        }
+
+        static public double UsrRan(ref int ir)
+        {
+            double da = 16807.0;
+            double db = 2147483647.0;
+            double dc = 2147483648.0;
+
+            ir = (int)Math.Abs(da * ir % db + 0.5);
+            return ir / dc;
         }
 
 
-        
+
     }
 }
