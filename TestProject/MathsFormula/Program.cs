@@ -21,7 +21,11 @@ namespace MathsFormula
             }
             sw.Stop();
 
-            Console.Write(sw.ElapsedMilliseconds);
+            float ems = sw.ElapsedMilliseconds;
+            float emsperop = ems / 10000000;
+
+            Console.Write("Elapsed milliseconds after loop over 10000000 multiplies: " + ems);
+            Console.Write(" or " + emsperop + " ms per multiply");
             Console.ReadLine();
 
         }

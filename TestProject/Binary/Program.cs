@@ -62,8 +62,9 @@ namespace Binary
             PrintInventory(inventory);
             Console.ReadKey();
 
-            int r = 5;
-            for (int i = 10; i < 50; i++)
+             int r = 5;
+            Console.WriteLine("Testing UsrRan: for a seed of " + r);
+            for (int i = 10; i < 20; i++)
             {
                 ;
                 Console.WriteLine(UsrRan(ref r));
